@@ -3,16 +3,19 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: "Montserrat", sans-serif;
 }
+
 .nav-bar {
   color: rgba(210, 105, 30, 0.89);
-  background-color:  #040508;
+  background-color: #040508;
   display: flex;
   padding: 20px;
   overflow: hidden;
 }
+
 .nav-list {
   list-style: none;
   display: flex;
@@ -20,6 +23,7 @@ body {
   padding: 0px 20px;
   color: white;
 }
+
 .list {
   list-style: none;
   text-decoration: none;
@@ -30,11 +34,13 @@ body {
   color: #cccccc;
   font-weight: 13px;
 }
+
 .logo {
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   color: #cccccc;
 }
+
 .bt {
   margin-left: auto;
 }
@@ -49,6 +55,7 @@ body {
   outline: none;
   color: #fff;
 }
+
 .btn::placeholder {
   color: rgb(8, 8, 8);
 }
@@ -58,6 +65,7 @@ body {
   font-weight: 400;
   font-size: 28px;
 }
+
 .theme {
   margin-top: 15px;
   align-items: center;
@@ -66,6 +74,7 @@ body {
   gap: 15px;
   margin: 30px 0;
 }
+
 .dream {
   color: #fff;
   background-color: black;
@@ -77,26 +86,31 @@ body {
 .main-content {
   display: inline-block;
 }
+
 .row {
   padding-right: 70px;
   display: flex;
   align-items: center;
 }
+
 .fashion1 {
   width: 35vw;
   height: 50vh;
   padding: 0 12px;
 }
+
 .fashion2 {
   width: 30vw;
   height: 50vh;
   padding: 0 12px;
 }
+
 .fashion3 {
   height: 50vh;
   width: 35vw;
   padding: 0 12px;
 }
+
 .row2 {
   padding-right: 70px;
   display: flex;
@@ -104,7 +118,7 @@ body {
   margin-top: 20px;
 }
 
-.user-info{
+.user-info {
   color: #fff;
   padding: 20px;
   position: relative;
@@ -115,6 +129,7 @@ body {
 /* MEDIA QUERY */
 
 @media (min-width: 320px) and (max-width: 480px) {
+
   .nav-list,
   .btn {
     display: none;
@@ -123,17 +138,21 @@ body {
   .menu {
     display: block !important;
   }
+
   .d-flex {
     flex-direction: column;
   }
+
   img {
     width: 100% !important;
   }
 }
+
 /* .............. */
 img {
   max-width: 100%;
 }
+
 .d-flex {
   display: flex;
 }
@@ -156,14 +175,17 @@ img {
   text-align: center;
   height: 100%;
 }
+
 .card-title {
   font-size: 25px;
   font-weight: 300;
   margin-bottom: 80px;
 }
+
 .card-text {
   padding: 20px 0;
 }
+
 .img-rounded {
   width: 200px;
   height: 200px;
@@ -171,18 +193,21 @@ img {
   border: 5px solid #ccc;
   margin-bottom: 80px;
 }
+
 .huje {
   font-weight: bold;
   font-style: italic;
   margin-top: 40px;
   color: #000;
 }
+
 .footer {
   color: #ffffff;
   background-color: #000;
   padding: 30px;
   text-align: center;
 }
+
 .footer-text {
   padding: 2px solid;
   border: 20px 30px;
@@ -191,6 +216,12 @@ img {
   display: grid;
   justify-content: left;
 }
+
 .footer-flex {
   display: flex;
+}
+
+.para1 {
+  padding: 20px 30px;
+  text-align: center;
 }
