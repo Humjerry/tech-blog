@@ -1,0 +1,17 @@
+* {
+  padding: auto;
+  border: auto;
+  color: orangered;
+}
+.mainForm {
+  border: 2px;
+  padding: 5px;
+  align-items: center;
+  margin-top: 20px;
+  color: orange;
+  justify-items: stretch;
+}
+.navbar {
+  padding: 15px;
+  border-width: 5px;   
+}
